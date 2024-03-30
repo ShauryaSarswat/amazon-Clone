@@ -1,0 +1,18 @@
+.nav-categories{
+    display: flex;
+    background-color: #222F3E;
+    color: #fff;
+    padding: 2px 16px;
+    
+    >a{
+        height: 28px;
+        padding: 4px 9px 0;
+        border: 1px solid #222F3E;
+        border-radius: 4px;
+
+        &:hover{
+            border: 1px solid #fff;
+            cursor: pointer;
+        }
+    }
+}

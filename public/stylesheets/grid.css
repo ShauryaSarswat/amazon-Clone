@@ -1,0 +1,25 @@
+.grid-layout{
+    padding: 20px;
+    background-color: #E3E6E6;
+    display: grid;
+    grid-template-rows: 420px;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 20px;
+
+    .grid-card{
+        background-color: #fff;
+
+        .card-internal-grid{
+            padding: 20px;
+            display: grid;
+            grid-template-rows: repeat(2, 102px);
+            grid-template-columns: repeat(2, 1fr);
+            column-gap: 12px;
+            row-gap: 40px;
+
+            img{
+                width: 100%;
+            }
+        }
+    }
+}

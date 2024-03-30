@@ -1,0 +1,18 @@
+.carousal-container{
+    display: flex;
+    width: 100vw;
+    height: 250px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    -ms-overflow-style: none;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+
+
+     >img{
+        width: 100vw;
+        height: 600px;
+     }
+}
